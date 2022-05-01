@@ -9,19 +9,19 @@ const demo = [
         id: 1,
         text: "Write for Envato Tuts+",
         day: "Feb 13 at 2:30pm",
-        reminder: false,
+        reminder: true,
     },
     {
         id: 2,
         text: "work out",
-        day: "Feb 13 at 2:30pm",
+        day: "Feb 13 at 7:30am",
         reminder: false,
     },
     {
         id: 3,
         text: "Procrastinate on Duolingo",
-        day: "Feb 13 at 2:30pm",
-        reminder: false,
+        day: "Feb 13 at 1:30pm",
+        reminder: true,
     },
 ]
 

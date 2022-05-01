@@ -3,7 +3,7 @@
 function Task({task, onDelete, toggleReminder}) {
     return (
         <div className={`task ${task.reminder === true ? 'reminder' : ''}`} onDoubleClick={() => toggleReminder(task.id)}>  
-            <li className={`${task.reminder ? 'done' : ''} `}>
+            <li className={`${task.reminder === false ? 'done' : ''} `}>
                 <span className="label">{task.text}</span>
                 <span className="label">
                     {task.day}

@@ -9,6 +9,7 @@ function Tasks({tasks, onDelete, toggleReminder}) {
                 {tasks.map((task) => (
                     <Task task={task} key={task.id} onDelete={onDelete} toggleReminder={toggleReminder}/>
                 ))}
+                
             </transition-group>
         </>
     )

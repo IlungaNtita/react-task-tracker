@@ -11,9 +11,7 @@ function Header({title, setShowTask, showTask, }) {
         <div>
             <h1>{title}</h1>
             <span>Get things done, one item at a time.</span>
-        <div class="filters">
     
-        </div>
             <ToggleButton
                 label="Want to add a task?"
                 labelOff="Close form?"
